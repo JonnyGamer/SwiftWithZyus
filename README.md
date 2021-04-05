@@ -2,6 +2,13 @@
 
 Fibonacci
 
+```python
+f1,f2 = 0,1
+for i in range(10):
+    f1,f2 = f2,f1+f2
+    print(f1)
+```
+
 ```swift
 var (f1,f2) = (0,1)
 for _ in 1...10 {
